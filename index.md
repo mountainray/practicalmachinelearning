@@ -237,7 +237,9 @@ With a final model chosen (in the case of GBM), we have three models to run agai
 <p class="caption">**Prediction versus Truth**</p>
 </div>
 
-Therefore we can see excellent performance from the GBM, a bit less for treebag, and a mere guess for the LDA.  We will select the GBM, knowing the treebag is not a bad option, and with a little more variation observed in the resampling, might do better with fresh data.
+Therefore we can see excellent performance from the GBM, a bit less for treebag, and a mere guess for the LDA.  We will select the GBM, knowing the treebag is not a bad option, and with a little more variation observed in the resampling, might do better with fresh data.  
+
+The **out of sample error rate** is estimated to be between .990 and .993 (95% confidence).
 
 ## Choices made
 The analysis choices made can be summarized:
